@@ -7,15 +7,19 @@ def analyze_text(text):
     e = "e"
     es = 0
     text = text.lower()
-        for i in range(len(text)):
-            if alf.find(text[i]) >= 0:
-                letters += 1
-            else:
-                letters = letters
-            if e.find(text[i]) >= 0
-                es += 1
-            else:
-                es = es
-    #Compare each letter of WORD to letters
+    for i in range(len(text)):
+        if alf.find(text[i]) >= 0:
+            letters += 1
+        else:
+            letters = letters
+        if e.find(text[i]) >= 0:
+            es += 1
+        else:
+            es = es
+    keyphrase = "The text contains", letters, "alphabetic characters, of which", es,"("(es/letters)*100,"""%) are ‘e’"""
+    print(keyphrase)
+
+analyze_text("blueberries")
+
         #define number of letters in WORD
         #define number of Es in WORD
