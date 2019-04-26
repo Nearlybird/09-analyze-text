@@ -16,7 +16,8 @@ def analyze_text(text):
             es += 1
         else:
             es = es
-    print("The text contains", letters, "alphabetic characters, of which", es,"(",(es/letters)*100,"""%) are ‘e’.""")
+    percent = (es/letters)*100
+    print("The text contains", letters, "alphabetic characters, of which", es,"(",percent,"""%) are ‘e’.""")
   
 
 analyze_text("blueberries")
