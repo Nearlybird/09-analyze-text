@@ -18,10 +18,10 @@ def analyze_text(text):
             es = es
     percent = (es/letters)*100
     percent = '{0:.2f}'.format(percent)
-    return "The text contains", letters, "alphabetic characters, of which", es,"(",percent,"""%) are ‘e’."""
-  
-
-analyze_text("blueberries")
+    letters = str(letters)
+    es = str(es)
+    percent = str(percent)
+    return "The text contains "+ letters + " alphabetic characters, of which "+ es +" ("+percent+"""%) are ‘e’."""
 
         #define number of letters in WORD
         #define number of Es in WORD
