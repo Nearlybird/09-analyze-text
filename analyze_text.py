@@ -16,8 +16,8 @@ def analyze_text(text):
             es += 1
         else:
             es = es
-    keyphrase = "The text contains", letters, "alphabetic characters, of which", es,"("(es/letters)*100,"""%) are ‘e’"""
-    print(keyphrase)
+    print("The text contains", letters, "alphabetic characters, of which", es,"(",(es/letters)*100,"""%) are ‘e’.""")
+  
 
 analyze_text("blueberries")
 
