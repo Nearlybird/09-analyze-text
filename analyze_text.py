@@ -17,6 +17,7 @@ def analyze_text(text):
         else:
             es = es
     percent = (es/letters)*100
+    percent = '{0:.2f}'.format(percent)
     print("The text contains", letters, "alphabetic characters, of which", es,"(",percent,"""%) are ‘e’.""")
   
 
