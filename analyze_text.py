@@ -21,7 +21,7 @@ def analyze_text(text):
     letters = str(letters)
     es = str(es)
     percent = str(percent)
-    return "The text contains "+ letters + " alphabetic characters, of which "+ es +" ("+percent+"""%) are ‘e’."""
+    return "The text contains "+ letters + " alphabetic characters, of which "+ es +" ("+percent+"""%) are 'e'."""
 
         #define number of letters in WORD
         #define number of Es in WORD
